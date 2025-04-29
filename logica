@@ -1,0 +1,249 @@
+import math
+
+# soma = 0
+
+# for i in range (1,100):
+#     soma = soma + i
+# print(soma)
+
+
+##############################################################################
+
+# numero = 0
+# while True:
+#    numero = int(input('Digite um numero: '))
+
+#    if numero == 4:
+#      print(' vc acertou o numero')
+#      break
+#    else:
+#       print('Numero deve estar entre 1 e 5 ')
+#       continue
+
+##############################################################################
+# nomes = []
+
+# for i in range(3):
+#     nome = input('Digite um nome: ')
+#     nomes.append(nome)
+
+#     i = i + 1
+
+# for i in range(len(nomes)):
+#     print(nomes[i])
+
+##############################################################################
+# # Fatorial
+
+# numero = int(input('digite um numero: '))
+
+# fatorial = 1
+# for i in range(numero, 0, -1): #vai do numero ate 0 de 1 em 1
+
+#     fatorial = fatorial * i
+
+# print(f'\t{numero} fatorial é: {fatorial}')
+
+
+##############################################################################
+
+# while True:
+#     idade = int (input('Digite sua idade: '))
+#     if idade >= 18:
+#         print(f'Voce tem {idade} anos, e pode tirar a carteira!')
+#         break
+#     else:
+#         print('Vc é menor de idade!')
+
+##############################################################################
+
+# numero = 10
+# for i in range(numero, -1, -1):
+   
+#     print(i)
+
+
+##############################################################################
+
+# def mensagem1():
+#     print("Ola mundo")
+
+# def mensagem2():
+#     return 'Ola mundo'
+
+# mensagem1()
+
+# texto = mensagem2()
+# print(texto)
+
+##############################################################################
+
+# def recebe_note():
+#     nota = float(input('Digite uma nota: '))
+#     return  nota
+
+# def resultado(n1, n2, n3):
+#     media = (n1 + n2 + n3)/3
+#     print('Nota 1: ', n1)
+#     print('Nota 2: ', n2)
+#     print('Nota 3: ', n3)
+#     print('Media: ',round(media,1), 'Resultado: ', end='')
+
+#     if media >=7:
+#         print('Aprovado')
+#     else:
+#         print('Reprovado')
+
+# a = recebe_note()
+# b = recebe_note()
+# c = recebe_note()
+
+# resultado(a,b,c)
+
+##############################################################################
+
+# def dobro():
+#     numero = float(input('Digite um numero: '))
+
+#     dobro = numero * 2
+#     return dobro
+
+# n = dobro()
+# d = dobro()
+# print(n)
+# print(d)
+
+##############################################################################
+
+# numero = int(input('Digite um numero: '))
+
+# fatorial = 1
+
+# for i in range(numero, 0, -1):
+#     fatorial = fatorial * i
+# print(fatorial)
+
+##############################################################################
+
+# class Pessoa:
+#     def __init__(self, nome, idade):
+#         self.nome = nome
+#         self.idade = idade
+    
+#     def imprimir(self):
+#         print(f'Nome: {self.nome} | Idade: {self.idade}')
+    
+# p1 = Pessoa('Maria', 22)
+# p1.imprimir()
+
+##############################################################################
+
+# metro = int(input('Digite a quantidade de metros: '))
+
+# m_quadrado = 54
+# litro_lata = 18
+# custo_lata = 80
+
+# total_lata = math.ceil(metro / m_quadrado)
+
+# total = total_lata * custo_lata
+
+# print(round(total_lata,1))
+# print(round(total,2))
+
+##############################################################################
+
+
+# def recebe_note():
+#     nota  = float(input('Digite a nota: '))
+#     return nota
+
+# def resultado(n1, n2, n3):
+    
+#     resultado = (nota1 + nota2 + nota3)/3
+
+#     print(resultado)
+
+# nota1 = recebe_note()
+# nota2 = recebe_note()
+# nota3 = recebe_note()
+
+# resultado(nota1, nota2, nota3)
+
+ ##############################################################################
+
+# vogal = ['a', 'e', 'i', 'o', 'u']
+
+# letra = input('Digite uma letra: ')
+
+# if letra in vogal:
+#     print('Vogal')
+# else:
+#     print('Consoante')
+
+##############################################################################
+
+# a = 8
+# b = 8
+# c = 6
+
+# # if (a > b) & (a > c):
+# #     print(a)
+# # elif (b > a) & (b > c):
+# #     print(b)
+# # elif (c > a) & (c > b):
+# #     print(c)
+# # else:
+# #     print('Existe numeros iguais')
+
+# # outra forma, se for pra pegar os dois q empataram tem q usar um array
+      
+# maior = max(a, b, c)
+
+# print('Maior número é:', maior)
+
+
+# km = float(input('digite a quantidade de KM: '))
+# dias = float(input('digite os dias: '))
+
+# preco_a_pagar = 0
+# carro_custa_dia = float(60)
+# km_rodado = float(0.15)
+
+# preco_a_pagar = (dias * carro_custa_dia) + (km * km_rodado)
+
+# print(preco_a_pagar)
+
+##############################################################################
+
+# velocidade = int(input('Digite a velocidade: '))
+# multa = 5
+# limite = 80
+
+# total = 0
+
+# if velocidade > limite:
+#     total = (velocidade - limite) * 5
+#     print(f'Voce estava a {velocidade} e vai pagar um total de {total} reais pelo excesso')
+# else:
+#     print('vc esta dentro do limite.')
+
+##############################################################################
+
+# a = 2
+# b = 3
+# c = 1
+
+# igual = []
+
+# for i in range(3 + 1):
+#     maximo = max(a, b, c)
+#     igual.append(maximo)
+# print(igual)
+
+##############################################################################
+
+valor_casa = float(input('Digite o valor da casa: '))
+salario = float(input('Digite seu salario: '))
+qtd_anos_pagar = float(input('Quantos anos quer pagar: '))
+
