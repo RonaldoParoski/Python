@@ -1,3 +1,100 @@
+# numero = int(input('digite um numero: '))
+# fatorial = 1
+
+# for i in range (numero, 0, -1):
+#     fatorial = fatorial * i
+
+# print(fatorial)
+
+# salario = float(input('Digite seu salario: '))
+
+# if salario < 1200:
+#     print('Voce não precisa pagar imposto!')
+# else:
+#     print('Voce vai ter q pagar imposto!')
+
+
+# def recebe_nota():
+#     nota = float(input('Digite uma nota: '))
+    
+#     return nota
+     
+# def resultado(n1,n2,n3):
+
+#     media = (n1 + n2 + n3)/3
+
+#     if media < 7.0:
+#         print(f'Sua media é: {round(media,2)} e vc esta Reprovado')
+#     else:
+#         print('Aprovado')
+
+# a = recebe_nota()
+# b = recebe_nota()
+# c = recebe_nota()
+# resultado(a,b,c)
+
+#########################################################
+
+# idade = 22
+
+# print('%d' %idade)
+# print('%03d' %idade)
+# print('%3d' %idade)
+# print('%-3d' %idade)
+
+#########################################################
+
+# a = 3
+# b = 7
+# c = 5
+
+# maior = max(a, b, c)
+
+# a = 3
+# b = 11
+# c = 9
+
+# numeros = [a,b,c]
+# numeros.sort(reverse=True)
+
+# print(numeros)
+
+# numeros = [4, 2, 9, 1, 7, 5, 3, 10, 6, 8]
+
+# n = len(numeros)
+
+# for i in range(n):
+#     print(f'\n🔁 Passagem {i + 1}:')
+#     for j in range(0, n - 1):
+#         print(f'Comparando {numeros[j]} e {numeros[j + 1]}...')
+#         if numeros[j] < numeros[j + 1]:
+#             numeros[j], numeros[j + 1] = numeros[j + 1], numeros[j]
+#             print(f'➡️ Trocou! Agora a lista está assim: {numeros}')
+#         else:
+#             print('❌ Não trocou.')
+
+# print('\n✅ Lista final ordenada em ordem decrescente:')
+# print(numeros)
+
+#########################################################
+
+# lista = [1,2,8,4,5]
+# soma = 0
+# for i in lista:
+#     soma  = i + soma
+# print(soma)
+
+#########################################################
+
+# salario = float(input('Digite seu salario: '))
+# aumento = float(input('Digite seu aumento: '))
+
+# aumento_porcento = (aumento / 100) * salario
+
+# salario_total = aumento_porcento + salario
+
+# print(round(salario_total,2))
+
 import math
 
 # soma = 0
@@ -243,7 +340,24 @@ import math
 
 ##############################################################################
 
-valor_casa = float(input('Digite o valor da casa: '))
-salario = float(input('Digite seu salario: '))
-qtd_anos_pagar = float(input('Quantos anos quer pagar: '))
+# valor_casa = float(input('Digite o valor da casa: '))
+# salario = float(input('Digite seu salario: '))
+# qtd_anos_pagar = float(input('Quantos anos quer pagar: '))
+
+# meses = qtd_anos_pagar * 12
+
+# prestacao = valor_casa / meses
+# limite = salario * 0.3
+
+# print(f'\nPrestação mensal: R$ {prestacao:.2f}')
+# print(f'Limite permitido (30% do salário): R$ {limite:.2f}')
+
+# if prestacao <= limite:
+#     print('emprestimo aprovado')
+# else:
+#     print('emprestimo negado')
+
+# primeiro converte de anos pra meses
+# calcula o valor da prestação
+# calcula o valor do limite para pagar a parcela
 
