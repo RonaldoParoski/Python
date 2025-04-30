@@ -361,3 +361,16 @@ import math
 # calcula o valor da prestação
 # calcula o valor do limite para pagar a parcela
 
+##############################################################################
+
+kwh = float(input('Digite a qtd consumida: '))
+tipo_instalacao = input('Digite uma opção: \n R - Residencial \n I - Industria \n C - Casa \n ').upper()
+
+if tipo_instalacao == 'R':
+    if kwh <= 500:
+        tarifa = kwh * 0.4
+    elif kwh > 500 and kwh < 1000:
+        tarifa = kwh * 0.65
+
+print(tarifa)
+
