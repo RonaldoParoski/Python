@@ -363,14 +363,43 @@ import math
 
 ##############################################################################
 
-kwh = float(input('Digite a qtd consumida: '))
-tipo_instalacao = input('Digite uma opção: \n R - Residencial \n I - Industria \n C - Casa \n ').upper()
+# kwh = float(input('Digite a qtd consumida: '))
+# tipo_instalacao = input('Digite uma opção: \n R - Residencial \n I - Industria \n C - Casa \n ').upper()
 
-if tipo_instalacao == 'R':
-    if kwh <= 500:
-        tarifa = kwh * 0.4
-    elif kwh > 500 and kwh < 1000:
-        tarifa = kwh * 0.65
+# if tipo_instalacao == 'R':
+#     if kwh <= 500:
+#         tarifa = kwh * 0.4
+#     elif kwh > 500 and kwh < 1000:
+#         tarifa = kwh * 0.65
 
-print(tarifa)
+# print(tarifa)
+
+######################################################
+
+# x = 10
+# while x >= 0:
+#     print(x)
+#     x = x - 1
+# fim = int(input('Dgite o ultimo numero a imprimi: '))
+
+# x = 1
+# contador = 0
+# while x <= fim:
+#     if x % 3 == 0:
+#         print(x)
+#         contador = contador + 1
+#         if contador == 10:
+#             break
+#     x = x + 1
+ 
+######################################################
+
+# n = int(input('tabuada de: '))
+# x = 1
+# while x <= 10:
+#     calcula = n * x
+#     print(f'{n} * {x} = {calcula}')
+#     x = x + 1
+
+######################################################
 
