@@ -457,3 +457,31 @@ if palavra ==  inversa1:
     print('OK')
 else:
     print('nao bommm')
+
+continua = True
+
+# contador = 0
+# soma = 0
+
+# while continua:
+#     numero = int(input('digite um numero: '))
+
+#     if numero == 0:
+#         continua = False
+#     else:
+#         contador = contador + 1
+#         soma = numero + soma
+  
+
+# def calcula_media(n1, n2):
+#     media = n1/n2
+#     return media
+
+# if contador > 0:
+#     n3 = calcula_media(soma, contador)
+
+#     print(f'\nnumeros digitados: {contador}')
+#     print(f'a soma deles: {soma}')
+#     print(f'a media deles: {n3:.2f}')
+# else:
+#     print('Numero invalido!\n')
