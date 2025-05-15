@@ -363,6 +363,7 @@ import math
 
 ##############################################################################
 
+
 # kwh = float(input('Digite a qtd consumida: '))
 # tipo_instalacao = input('Digite uma opção: \n R - Residencial \n I - Industria \n C - Casa \n ').upper()
 
@@ -440,25 +441,27 @@ import math
 
 ######################################################
 
-palavra = input('Digite uma palavra: ')
-inversa = palavra[::-1] #inverte a palavra de tras para frente
-if palavra == inversa:
-    print('Palindrone')
-else:
-    print('Nao é palindrone')
+# palavra = input('Digite uma palavra: ')
+# inversa = palavra[::-1] #inverte a palavra de tras para frente
+# if palavra == inversa:
+#     print('Palindrone')
+# else:
+#     print('Nao é palindrone')
 
-# outra maneira de fazer 
-inversa1 = ''
-for letra in palavra:
-    inversa1 = letra + inversa1
-    print(inversa1)
+# # outra maneira de fazer 
+# inversa1 = ''
+# for letra in palavra:
+#     inversa1 = letra + inversa1
+#     print(inversa1)
 
-if palavra ==  inversa1:
-    print('OK')
-else:
-    print('nao bommm')
+# if palavra ==  inversa1:
+#     print('OK')
+# else:
+#     print('nao bommm')
 
-continua = True
+######################################################
+
+# continua = True
 
 # contador = 0
 # soma = 0
@@ -485,3 +488,119 @@ continua = True
 #     print(f'a media deles: {n3:.2f}')
 # else:
 #     print('Numero invalido!\n')
+
+######################################################
+# Imprime a tabuada do 1 até o 10
+# tabuada = 1
+# while tabuada <= 10:
+#     numero = 1
+#     while numero <= 10:
+#         print(f'{tabuada} x {numero} = {tabuada * numero}')
+#         numero += 1
+#     tabuada += 1
+
+######################################################
+
+# print('****** MENU ******')
+# print('\n1 - adição'
+# '\n2 - subtração'
+# '\n3 - multiplocação'
+# '\n4 - divisão'
+# '\n5 - SAIR')
+
+# opcao = int(input('Escolha uma opção: '))
+
+# if opcao == 1:
+#     x = 1
+#     while x <= 10:
+#         calcula = opcao * x
+#         print(f'{opcao} * {x} = {calcula}')
+#         x = x + 1
+   
+# if opcao == 2:
+#     x = 1
+#     while x <= 10:
+#         calcula = opcao * x
+#         print(f'{opcao} * {x} = {calcula}')
+#         x = x + 1
+# if opcao == 5:
+#     print('Vc saiu')
+#     exit()
+
+######################################################
+# verifica se o numero é primo
+
+# numero = 5
+
+# contador = 0
+
+# for i in range (numero, 0, -1):
+#     # print(f'{numero} / {i} = {numero / i:.2f}')
+#     if numero % i == 0:
+#         contador += 1    
+
+# if contador == 2:
+#     print('Numero primo')
+# else: 
+#     print('Nao primo')
+   
+# print(contador)
+
+######################################################
+
+# mostra os numeros primos até o numero digitado
+
+# n = 5
+
+# for numero in range(2, n + 1):
+#     contador = 0
+    
+#     for i in range(1, numero + 1):
+#         if numero % i == 0:
+#             contador += 1
+#     if contador == 2:
+#         print(numero, end=' ')
+
+######################################################
+
+# notas = [0,0,0,0,0]
+# x = 0
+# soma = 0
+# media = 0
+
+# while x < 5:
+#     notas[x] = int(input('Digite uma nota: '))
+#     soma = notas[x] + soma
+#     x += 1
+
+#     media = soma / x
+
+# x = 0
+
+# print(f'soma: {soma}')
+# print(f'media: {media}')
+
+######################################################
+
+a = [1,6,8,4,5,1,7]
+b = [6,7,8,4,0,1,9,9]
+
+c = []
+
+# c = [a + b] # junta os elementos de duas listas e forma outra
+# a.extend(b) # tabem junta os elementos de duas listas, mas altera uma delas
+# c = a
+
+# for i in range(len(a)):
+#     print(a[i])
+
+# print(c)
+
+for i in range(len(a)):
+    if a[i] not in c:
+        c.append(a[i])
+for i in range(len(b)):
+    if b[i] not in c:
+        c.append(b[i])
+print(c)
+
