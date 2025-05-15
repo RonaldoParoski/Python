@@ -582,9 +582,9 @@ import math
 
 ######################################################
 
-a = [1,6,8,4,5,1,7]
+a = [1,6,8,4,5,1,79]
 b = [6,7,8,4,0,1,9,9]
-
+d = 0
 c = []
 
 # c = [a + b] # junta os elementos de duas listas e forma outra
@@ -596,11 +596,19 @@ c = []
 
 # print(c)
 
-for i in range(len(a)):
-    if a[i] not in c:
-        c.append(a[i])
-for i in range(len(b)):
-    if b[i] not in c:
-        c.append(b[i])
-print(c)
+# pega dois arrays verifica se eles tem numeros iguais e gera um novo array
+# sem os numeros iguais
+
+# for i in range(len(a)):
+#     if a[i] not in c:
+#         c.append(a[i])
+# for i in range(len(b)):
+#     if b[i] not in c:
+#         c.append(b[i])
+
+# c.sort() #ordena em ordem crescente a nova 
+# print(c)
+
+
+
 
