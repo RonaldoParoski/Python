@@ -582,10 +582,10 @@ import math
 
 ######################################################
 
-a = [1,6,8,4,5,1,79]
-b = [6,7,8,4,0,1,9,9]
-d = 0
-c = []
+# a = [1,6,8,4,5,1,79]
+# b = [6,7,8,4,0,1,9,9]
+# d = 0
+# c = []
 
 # c = [a + b] # junta os elementos de duas listas e forma outra
 # a.extend(b) # tabem junta os elementos de duas listas, mas altera uma delas
@@ -609,6 +609,41 @@ c = []
 # c.sort() #ordena em ordem crescente a nova 
 # print(c)
 
+# Simulação de uma fila de um banco
 
+# ultimo = 10
+# fila = list(range(1, ultimo + 1))
+# while True:
+#     print(f'\nExistem {len(fila)} clientes na fila')
+#     print(f'Fila atual: {fila}')
+#     print('Digite *F* para adicionar um cliente ao final da fila,')
+#     print('ou *A* para realizar o atendimento. *S* para sair.')
 
+#     operacao = input('Operação (F, A ou S: )\n').upper()
+#     if operacao == 'A':
+#         if len(fila) > 0:
+#             atendido = fila.pop(0) #pega o primeiro q chegou e apaga da fila
+#             print(f'Cliente - {atendido} - atendido.')
+#         else:
+#             print('Fila vazia')
+#     elif operacao == 'F':
+#         ultimo += 1 #incrementa o novo cliente
+#         fila.append(ultimo)
+#     elif operacao == 'S':
+#         break
+#     else:
+#         print('Operação invalida')
 
+# Criptografia utilizando a cifra de César
+# deslocamento = int(input('Digite o deslocamento: '))
+# texto = input('Digite o texto a ser criptografado: ')
+# texto_criptografado = ''
+# for letra in texto:
+#     if letra.isupper():
+#         letra_criptografada = chr((ord(letra.lower()) + deslocamento - 97) % 26 + 65)
+#     elif letra.islower():
+#         letra_criptografada = chr((ord(letra) + deslocamento - 97) % 26 + 97)
+#     else:
+#         letra_criptografada = letra
+#     texto_criptografado += letra_criptografada
+# print('Texto criptografado:', texto_criptografado)
