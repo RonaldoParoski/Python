@@ -647,3 +647,52 @@ import math
 #         letra_criptografada = letra
 #     texto_criptografado += letra_criptografada
 # print('Texto criptografado:', texto_criptografado)
+
+######################################################
+
+# PILHAS ultimo a entrar é o primeiro a sair, pratos para lavar
+# prato = 5
+# pilha = list(range(1, prato + 1))
+# while True:
+#     print(f'\n Existem {len(pilha)} pratos na pilha')
+#     print(f'pilha atual: {pilha}')
+#     print('Digite *E* para empilhar um novo prato,')
+#     print('ou *D* para desimpilhar. *S* para sair')
+#     operacao = input('Operação (E, D ou S): ').upper()
+#     if operacao == 'D':
+#         if len(pilha) > 0:
+
+#             lavado = pilha.pop(-1) # retira o ultimo elemento adicionado
+
+#             print(f'Prato {lavado} lavado')
+#         else:
+#             print('Pilha vazia, nada para lavar')
+#     elif operacao == 'E':
+#         prato += 1 # acrescenta mais im prato
+#         pilha.append(prato)
+#     elif operacao == 'S':
+#         break
+#     else:
+#         print('Operação invalida, digite apenas, E, D ou S.')
+
+#digita uma frase e ele verifica se os pareteses foram abertos e fechados na ordem correta
+
+# expressao = input("Digite a expressão: ")
+
+# pilha = []
+# contador = 0
+
+# for caractere in expressao:
+#     if caractere == "(":
+#         pilha.append("(")
+#     elif caractere == ")":
+#         if len(pilha) > 0:
+#             pilha.pop()
+#         else:
+#             print("Erro: Parêntese fechando sem abrir antes.")
+#             break
+# else:
+#     if len(pilha) == 0:
+#         print("Parênteses OK!")
+#     else:
+#         print("Erro: Parêntese(s) abertos não foram fechados.")
