@@ -675,6 +675,8 @@ import math
 #     else:
 #         print('Operação invalida, digite apenas, E, D ou S.')
 
+######################################################
+
 #digita uma frase e ele verifica se os pareteses foram abertos e fechados na ordem correta
 
 # expressao = input("Digite a expressão: ")
@@ -696,3 +698,117 @@ import math
 #         print("Parênteses OK!")
 #     else:
 #         print("Erro: Parêntese(s) abertos não foram fechados.")
+
+######################################################
+
+#programa de pesquisa
+
+# L = [15, 7, 27, 39]
+# p = int(input('Digite um valor para procurar: '))
+
+# achou = False
+# x = 0
+# while x < len(L):
+#     if L[x] == p:
+#         achou = True
+#         break
+#     x += 1
+# if achou:
+#     print(f'{p} achado na posição {x}')
+# else:
+#     print(f'{p} não encontrado.')
+
+######################################################
+
+# nome = 'ronaldo'
+# idade = 35
+# print(f'Nome: {nome}\'\t\'Idade: {idade}')
+
+######################################################
+
+
+# for i in range(1, 11):
+#     for j in range(1, i + 1):
+#         print(f'{j}', end=' ' )
+#     print()
+# 1 
+# 1 2 
+# 1 2 3
+# 1 2 3 4
+# 1 2 3 4 5
+# 1 2 3 4 5 6
+# 1 2 3 4 5 6 7
+# 1 2 3 4 5 6 7 8
+# 1 2 3 4 5 6 7 8 9
+# 1 2 3 4 5 6 7 8 9 10
+
+# for i in range(10, 0, -1):
+#     for j in range( 1, i + 1):
+#         print(j, end=' ')
+#     print()
+# 1 2 3 4 5 6 7 8 9 10 
+# 1 2 3 4 5 6 7 8 9 
+# 1 2 3 4 5 6 7 8 
+# 1 2 3 4 5 6 7 
+# 1 2 3 4 5 6 
+# 1 2 3 4 5 
+# 1 2 3 4 
+# 1 2 3 
+# 1 2 
+# 1
+
+# for i in range(1, 10 , 1):
+#     for j in range(10,10 - i, -1):
+#         print(j, end=' ')
+#     print()
+
+######################################################
+
+# l = [10,2,3,4]
+
+# for i in l:
+#     print(i)
+
+# contador = 0
+# while contador < len(l):
+#     print(l[contador])
+#     contador += 1
+
+# for v in range(10):
+#     print(v)
+
+# for i in range(3, 33, 3): #começa no 3 vai até o 33 de 3 em 3
+#     print(i, end=' ')
+# print()
+
+# l = [10,2,3,4]
+# for i in enumerate(l):
+#     x, e = i
+#     print(f'[{x}] {e}')
+#     print(i)
+
+######################################################
+
+# lista = [-10, -8, 0, 1, 2, 5, -2, -4]
+# soma = 0
+# for i in lista:
+#     soma = (i + soma) 
+
+# print(min(lista))
+# print(max(lista))
+# print(soma/len(lista))
+# print(soma)
+
+######################################################
+
+# valores = [9, 8, 7, 12, 0, 13, 21]
+# pares = []
+# impares = []
+
+# for i in valores:
+#     if i % 2 == 0:
+#         pares.append(i)
+#     else:
+#         impares.append(i)
+# print(f'pares: {pares}')
+# print(f'impares: {impares}')
