@@ -812,3 +812,59 @@ import math
 #         impares.append(i)
 # print(f'pares: {pares}')
 # print(f'impares: {impares}')
+
+######################################################
+
+# for i in range(10):
+#     if i == 3:
+#         continue
+#         print('ola')
+#     if i == 7:
+#         break
+#     print(i)
+
+######################################################
+
+# import random
+
+# numero_secreto = random.randint(1, 100)
+# tentativas = 0
+# acertou = False
+
+# while not acertou:
+#     tentativas += 1
+
+#     palpite = int(input('Digite um numero: '))
+
+#     if palpite < numero_secreto:
+#         print('Muito baixo, tente again')
+#     elif palpite > numero_secreto:
+#         print('Muito alto, tente again')
+#     else:
+#         acertou = True
+#         print(f'acertou, após {tentativas} tentativas ')
+
+######################################################
+
+# def saudacao(nome):
+#     print(f'ola {nome}')
+
+# saudacao('ronaldo')
+# saudacao('Bruna')
+
+# def calcula(largura, altura):
+#     area = largura * altura
+#     return area
+
+# area_total = calcula(10, 5)
+# print(f'area total: {area_total}')
+
+######################################################
+
+# métodos de listas
+# frutas.append('algo para inserir na sequencia da lista')
+# frutas.insert(1,' insere algo na posição escolhida')
+# frutas.remove(remove algo da lista)
+# fruta.removida = fruta.pop(0) remove pelo indice e devolve o Valor 
+# tamanho = len(frutas)
+
