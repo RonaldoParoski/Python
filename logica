@@ -898,3 +898,56 @@ import math
 #     for b in range(5):
 #         num = random.randint(1, 100)
 #         print(f'valor: {num}')
+
+# o laço interno sempre roda totalmente, pra a cada interação do laço interno
+
+######################################################
+
+#PYPI.ORG - PACOTES
+#pip install matpltolib - gera graficos
+
+# import math
+
+# print(math.sqrt(100))
+
+# numero = int(input('Digite um numero: '))
+
+# fatorial = 1
+
+# for i in range(numero, 0, -1):
+#     fatorial = i * fatorial
+# print(fatorial)
+
+######################################################
+
+import random
+
+# valor = random.randint(1, 20)
+# print(valor)
+
+# print('gerar 5 numero aleatorios \n')
+
+# for i in range(5):
+#     valor = random.randint(1, 50)
+#     print(f'numero: {valor}')
+
+# valor = random.random() #gera um numero de ponto flutuante entre 0 e 1
+# print(f'{valor:.4f}')
+# print(f'{valor * 10:.2f} entre 0 e 10 -- * 10')
+
+# valor =  random.uniform(1, 100)
+# print(round(valor, 2))
+
+# l = [2,4,6,9,10,13,14,16,18,20,21,28,33]
+
+# n = random.choice(l) #escolhe um numero de dentro da lista
+# print(n)
+
+# n = random.sample(l, 3) #gera uma outra lista com 3 numeros extraidos da lista original
+# print(n)
+
+#   EMBARALHAR OS ITENS DENTRO DE UMA LISTA
+# print('Lista original: ', l)
+# print('lista embaralhada: ', end=' ')
+# n = random.shuffle(l)
+# print(l)
