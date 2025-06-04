@@ -1006,3 +1006,91 @@ import random
 
 # tupla = (2,4,6,7,9)
 # halogenios = ('f', 'Cl', 'Br', 'i', 'At')
+
+######################################################
+
+# numero = int(input('digite um numero: '))
+
+# if numero % 2 == 1:
+#     print('impar')
+
+# a = 5
+# b = 20
+# c = 10
+
+# if (a > b) & (a > c):
+#     print(a)
+# elif (b > a) & (b > c):
+#     print(b)
+# else:
+#     print(c)
+
+# numero = 2
+# contador = 0
+
+
+# for i in range(numero, 0, -1):
+   
+#     if numero % i == 0:
+#         contador += 1
+
+# print(contador)
+
+# numero = 5
+# fatorial = 1
+# contador = 0
+
+# for i in range(numero, 0, -1):
+#     fatorial = fatorial * i
+
+#     if numero % i == 0:
+#         contador += 1
+# if contador == 2:
+#     print(f'\nNumero {numero} é Primo.\n')
+
+# print(f'fatorial de {numero} é: {fatorial}')
+
+########################################################################
+
+# compras = []
+
+# while True:
+#     produto = input('Digite o nome do Produto: ')
+#     if produto == 'fim':
+#         break
+#     compras.append(produto)
+
+# for i in compras:
+#     print(i)
+
+##################################################################
+
+# lista = [5, 3, 8, 4, 9]
+# ordenada = []
+
+# while lista:
+#     menor = min(lista) #acha o menor numero na lista
+#     ordenada.append(menor) #add o numero em outra lista
+#     lista.remove(menor) #remove o menor da lista original, fazendo outro numero ser o menor
+
+# print(ordenada)
+
+# numero = 10
+# contador = 0
+# for i in range(numero, 0, -1):
+#     if numero % i == 0:
+#         contador += 1
+# if contador == 2:
+#     print('Numero primo')
+
+# lista = [3, 5, 1, 0, 8]
+# ordenada = []
+# while lista:
+#     menor = min(lista)
+#     ordenada.append(menor)
+#     lista.remove(menor)
+# print(ordenada)
+
+
+
+
